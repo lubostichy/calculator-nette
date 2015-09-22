@@ -2,7 +2,7 @@
 
 namespace App\Model;
 
-use Nette;
+
 use Nette\Object;
 
 /**

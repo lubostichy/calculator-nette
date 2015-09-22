@@ -3,9 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/Lenovo/Documents/Nette/calculator-nette/app/presenters/templates/@layout.latte</file>
             <file>file:/C:/Users/Lenovo/Documents/Nette/calculator-nette/app/model/CalculatorManager.php</file>
+            <file>file:/C:/Users/Lenovo/Documents/Nette/calculator-nette/app/router/RouterFactory.php</file>
             <file>file:/C:/Users/Lenovo/Documents/Nette/calculator-nette/app/config/config.neon</file>
+            <file>file:/C:/Users/Lenovo/Documents/Nette/calculator-nette/app/config/config.local.neon</file>
             <file>file:/C:/Users/Lenovo/Documents/Nette/calculator-nette/app/presenters/CalculatorPresenter.php</file>
+            <file>file:/C:/Users/Lenovo/Documents/Nette/calculator-nette/app/presenters/templates/Calculator/default.latte</file>
         </group>
     </open-files>
 </project-private>

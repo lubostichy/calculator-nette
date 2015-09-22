@@ -2,14 +2,14 @@
 
 namespace App\Presenters;
 
-use Nette;
 use Nette\Application\UI\Presenter;
+use App\Model;
 
 /**
  * Presenter kalkulačky.
  * @package App\Presenters
  */
-class HomepagePresenter extends Presenter
+class CalculatorPresenter extends Presenter
 {
     /** @var int|null výsledok operácie alebo null */
     private $result = null;
