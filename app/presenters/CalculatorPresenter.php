@@ -2,8 +2,10 @@
 
 namespace App\Presenters;
 
-use Nette\Application\UI\Presenter;
-use App\Model;
+use Nette\Application\UI\Presenter,
+    App\Model\CalculatorManager,
+    Nette\Application\UI\Form,
+    Nette\Utils\ArrayHash;
 
 /**
  * Presenter kalkulačky.
@@ -17,7 +19,7 @@ class CalculatorPresenter extends Presenter
     private $calculatorManager;
     /** Deficinicia konstant pre spravu formulara */
     const
-        FORM_MSG_REQUIRE = 'Toto pole je povinné.',
+        FORM_MSG_REQUIRED = 'Toto pole je povinné.',
         FORM_MSG_RULE = 'Toto pole má neplatný formát.';
     
     /** Predvolená vykreslovacia metóda tohto presenteru */
